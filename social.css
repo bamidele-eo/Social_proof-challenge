@@ -1,0 +1,319 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+div h1{
+    color:hsl(300, 43%, 22%);
+    position: absolute;
+    font-weight:700;
+    top:75px;
+    left:100px;
+}
+div .product{
+    position:absolute;
+    left:100px;
+    top:190px;
+    color: hsl(303, 10%, 53%);
+    width:380px;
+}
+.report .reviews{
+    background-color:hsl(300, 24%, 96%);
+    width:300px;
+    display:flex;
+    padding:10px;
+    border-radius:5px;
+    margin-left:500px;
+    margin-top:-150px;
+}
+.report>.reviews p{
+    padding-left:15px;
+    font-size:13px;
+    color:hsl(300, 43%, 22%);
+    font-weight:500;
+}
+.report> .reviews img{
+    padding-left:2px;
+}
+.report .guru{
+    margin-top:15px;
+    background-color:hsl(300, 24%, 96%);
+    width:300px;
+    display:flex;
+    padding:10px;
+    border-radius:5px;
+    margin-left:530px;
+}
+.report .guru p{
+    padding-left:15px;
+    font-size:13px;
+    color:hsl(300, 43%, 22%);
+    font-weight:500;
+}
+.report .guru img{
+    padding-left:2px;
+}
+.report .tech{
+    margin-top:15px;
+    background-color:hsl(300, 24%, 96%);
+    width:300px;
+    display:flex;
+    padding:10px;
+    border-radius:5px;
+    margin-left:565px;
+}
+.report .tech p{
+    padding-left:15px;
+    font-size:13px;
+    color:hsl(300, 43%, 22%);
+    font-weight:500;
+}
+.report .tech img{
+    padding-left2px;
+}
+.smith{
+    margin-top:70px;
+    margin-left:100px;
+    background-color:hsl(300, 43%, 22%);
+    width:270px;
+    border-radius:5px;
+    position:relative;
+    padding-bottom:23px;
+}
+.smith img{
+    width:40px;
+    position: relative;;
+    top:25px;
+    left:20px;
+    border-radius:50%;
+}
+.smith .colton{
+    font-size:13px;
+    position:absolute;
+    left:75px;
+    top:30px;
+}
+.smith> .colton p{
+    color:hsl(0, 0%, 100%);
+}
+.smith> .colton .buyer{
+    color:hsl(333, 80%, 67%);
+}
+.smith .comment{
+    padding-top:40px;
+    color:hsl(0, 0%, 100%);
+    font-size:13px;
+    padding-left:20px;
+    width:235px;
+}
+.roberts{
+    background-color:hsl(300, 43%, 22%);
+    width:270px;
+    border-radius:5px;
+    position:relative;
+    padding-bottom:23px;
+    left:400px;
+    top:-155px;
+}
+.roberts img{
+    width:40px;
+    position: relative;;
+    top:25px;
+    left:20px;
+    border-radius:50%;
+}
+.roberts .irene{
+    font-size:13px;
+    position:absolute;
+    left:75px;
+    top:30px;
+}
+.roberts>.irene p{
+    color:hsl(0, 0%, 100%);
+}
+.roberts> .irene .buyer{
+    color:hsl(333, 80%, 67%);
+}
+.roberts .comment{
+    color:hsl(0, 0%, 100%);
+    font-size:13px;
+    padding-left:20px;
+    padding-top:40px;
+    width:240px;
+}
+.wallace{
+    background-color:hsl(300, 43%, 22%);
+    width:270px;
+    border-radius:5px;
+    position:relative;
+    padding-bottom:23px;
+    left:700px;
+    top:-310px;
+}
+.wallace .anne{
+    font-size:13px;
+    position:absolute;
+    left:75px;
+    top:30px;
+}
+.wallace img{
+    width:40px;
+    position: relative;;
+    top:25px;
+    left:20px;
+    border-radius:50%;
+}
+.wallace> .anne p{
+    color:hsl(0, 0%, 100%);
+}
+.wallace> .anne .buyer{
+    color:hsl(333, 80%, 67%);
+}
+.wallace .comment{
+    color:hsl(0, 0%, 100%);
+    font-size:13px;
+    padding-left:20px;
+    padding-top:40px;
+    width:235px;
+}
+
+@media only screen and (max-width:600px){
+    div img{
+        width:100%;
+    }
+    div h1{
+    font-size:1.3em;
+    position: absolute;
+    font-weight:700;
+    top:135px;
+    left:70px;
+    }
+    div .product{
+        left: 40px;
+        top: 220px;
+        color: hsl(303, 10%, 53%);
+        width:170px;
+        text-align-last:center ;
+        font-size:10px;
+        
+    }
+    .report .reviews{
+        display:block;
+        text-align:center;
+        width:220px;
+        margin-top: 50px;
+        margin-left: 12px;
+        padding:10px;
+
+    }
+    .report> .reviews img{
+        width:12px;
+    }
+    .report .reviews p{
+        font-size:12px;
+        padding-top:5px;
+        font-weight:700;
+    }
+    .report .guru{
+        display:block;
+        text-align:center;
+        width:220px;
+        padding:10px;
+        margin-left:12px;
+    }
+    .report> .guru img{
+        width:12px;
+    }
+    .report .guru p{
+        font-size:12px;
+        padding-top:5px;
+        font-weight:700;
+    }
+    .report .tech{
+        display:block;
+        text-align: center;
+        width:220px;
+        margin-left:12px;
+        padding:10px;
+
+    }
+    .report> .tech img{
+        width:12px;
+    } 
+    .report .tech p{
+        font-size:12px;
+        padding-top:5px;
+        font-weight:700;
+    }
+    .smith{
+        width:220px;
+        margin-left:12px;
+        margin-top:35px;
+    }
+    .smith> .colton p{
+        font-size:12px;
+    }
+    .smith> .colton .buyer{
+        font-size:12px;
+    }
+    .smith .comment{
+        font-size:12px;
+        width:208px;
+        padding-top:35px;
+    }
+    .smith img{
+        width:35px;
+    }
+    .smith .colton{
+        left:70px;
+    }
+    .roberts{
+        width:220px;
+        margin-left:-387px;
+        margin-top:170px;
+    }
+    .roberts> .irene p{
+        font-size:12px;
+    }
+    .roberts .irene .buyer{
+        font-size:12px;
+    }
+    .roberts .comment{
+        font-size:12px;
+        width:208px;
+        padding-top:35px;
+    }
+    .roberts img{
+        width:35px;
+    }
+    .roberts .irene{
+        left:70px;
+    }
+    .wallace{
+        width:220px;
+        margin-left:-687px;
+        margin-top:170px;
+    }
+    .wallace .anne{
+        left:70px;
+    }
+    .wallace> .anne p{
+        font-size:12px;
+    }
+    .wallace>.anne .buyer{
+        font-size:12px;
+    }
+    .wallace img{
+        width:35px;
+    }
+    .wallace .comment{
+        font-size:12px;
+        width:208px;
+        padding-top:35px;
+    }
+}
